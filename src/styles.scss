@@ -1,0 +1,212 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$test-angular-primary: mat-palette($mat-indigo);
+$test-angular-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$test-angular-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$test-angular-theme: mat-light-theme($test-angular-primary, $test-angular-accent, $test-angular-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($test-angular-theme);
+
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$test-angular-primary: mat-palette($mat-indigo);
+$test-angular-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$test-angular-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$test-angular-theme: mat-light-theme($test-angular-primary, $test-angular-accent, $test-angular-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($test-angular-theme);
+
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$test-angular-primary: mat-palette($mat-indigo);
+$test-angular-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$test-angular-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$test-angular-theme: mat-light-theme($test-angular-primary, $test-angular-accent, $test-angular-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($test-angular-theme);
+
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+// Tesis Majo Styles
+.main-body{
+    margin: 0 0;   
+    height: 100%;
+}
+
+.main-content{
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: gray;
+}
+
+.fondo {
+    width: 100%;
+    z-index: 1;
+}
+
+.plano-fondo {
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    z-index: 2;
+}
+
+.plano1{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+}
+
+.scene{
+    max-width: 100%;
+    // overflow: hidden;
+}
+
+.centered-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+ }
+
+.footer{
+    height: 60vh;
+}
+
+.body-style {
+    width: 30%; 
+    margin: 0 auto;
+}
+
+.button{
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 8px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    margin: 8px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 30px;
+    font-family: 'Muli', sans-serif;
+    width: 98%;
+    line-height: 18px;
+    height: 55px;
+}
+
+  
+.button1:hover {
+    outline: none !important;
+}
+
+.button-separation{
+    padding: 1vh 0;
+    width: 50%;
+}
+
+.message-text {
+    font-family: 'Muli', sans-serif;
+}
+
+.img-emergente {
+    width: 53px;
+    margin-top: 4px;
+}
+
+.msg-ico{
+    z-index:4; position: relative;
+}
+.chica {
+    margin-top: -472px;
+}
+
+.nosoy{
+    margin-top: -140px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .body-style {
+        width: 100%; 
+        margin: 0 0;
+    }
+
+    .plano1{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+
+    .nosoy {
+        z-index: 2; margin-top: -115px; 
+    }
+    
+    .chica {
+        z-index: 2; margin-top: -392px;
+    }
+}

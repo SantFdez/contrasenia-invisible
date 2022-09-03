@@ -1,0 +1,75 @@
+<app-loading [isLoaded]="isLoaded"></app-loading>
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+    <div class="scene" style="">
+        <img class="fondo " data-aos-delay="500" data-aos="fade-right" style="" 
+            src="../../../../assets/D4/ya lo se/esc1/esc1-txt.gif" />   
+        <a (click)="showMessage1()">
+            <img class="fondo" data-aos="fade-right"
+                style="margin-top: -5%; position: relative;
+                z-index: 3;"
+                src="../../../../assets/D4/ya lo se/boton1.gif" />
+        </a>
+        <app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message>
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; margin-top: -8%;"
+            src="../../../../assets/D4/ya lo se/esc1/esc1.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos-delay="500" data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc2/esc2-txt.gif" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc2/esc2.gif" />
+    </div>
+    
+    <div class="scene" style="">
+        <img class="fondo "  data-aos-delay="500" data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc3/esc3-txt.gif" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc3/esc3-1.png" />
+    </div>
+
+    <div class="scene" style="">
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right"
+                style=" z-index: 5;"
+                src="../../../../assets/D4/ya lo se/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc4/esc4.png" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc4/esc4-2.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" data-aos-delay="500" src="../../../../assets/D4/ya lo se/esc5/esc5-txt.gif" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc5/esc5-1.gif" />
+    </div>
+    
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" data-aos-delay="500" src="../../../../assets/D4/ya lo se/esc6/esc6-txt.gif" />
+        <img class="fondo " data-aos="fade-right"style="    position: relative;
+        margin-top: -30%;
+        z-index: -1;"
+        src="../../../../assets/D4/ya lo se/esc6/1.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D4/ya lo se/esc7/esc7.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../../assets/D4/ya lo se/medidor4.gif" />
+    </div>
+
+    <div class="scene" style="margin-top: -1px; ">
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Continuemos</button>
+            </div>
+        </ul>
+
+        <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto; ">
+            <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <nz-progress [nzPercent]="50" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#9A0A56'}" nzStatus="active"
+                    [nzShowInfo]=false>
+                </nz-progress>
+            </div>
+        </div>
+    </div>
+</div>

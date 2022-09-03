@@ -1,0 +1,70 @@
+<app-loading [isLoaded]="isLoaded"></app-loading>
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}" style="" [ngStyle]="{'visibility': visible}">
+    <div class="scene">
+        <img class="fondo" data-aos-delay="500" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc1/esc1.png" />
+        <img class="fondo" data-aos-delay="500" style="z-index:4 " data-aos="fade-right" src="../../../assets/D2/Espero/esc1/esc1-2.png" />
+        <img class="fondo" data-aos-delay="500" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc1/esc1-3.png" />
+        <img class="plano1" data-aos-delay="500" style="z-index:4; margin-top: 87px;" data-aos="fade-right" src="../../../../assets/D2/Espero/esc1/esc1-4.png" />
+        <img class="fondo" style="z-index:4; margin-top: 6px;"data-aos="fade-right" src="../../../../assets/D2/Espero/esc1/esc1-6.png" />
+        <img class="plano1" style="z-index:4; margin-top: -22px; " data-aos="fade-right" src="../../../../assets/D2/Espero/esc1/esc1-5.png" />
+        <a (click)="showMessage()">
+            <img class="fondo" style="z-index:4;" data-aos="fade-right" src="../../../../assets/D2/Espero/boton-d2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible" [messageName]="msgName" (toDo)="handleOk()"></app-message>
+        <!-- data-aos-delay="1000" -->
+        
+    </div>
+
+    <!-- <div class="scene">
+        <img class="fondo" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc2.png" />
+    </div> -->
+
+    <div class="scene" style="margin-top: 100px;">
+        <img class="fondo" data-aos-delay="500" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc3/esc3.png" />
+        <img class="fondo" data-aos-delay="500"  style="z-index:4; position: relative; margin-top: -94px;" data-aos="fade-right" src="../../../../assets/D2/Espero/esc3/esc3-1.png" />
+        <img class="fondo" style="z-index:4; z-index: -1; position: relative; margin-top: -78px; " data-aos="fade-right" src="../../../../assets/D2/Espero/esc3/esc3-3.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" style="z-index:4;margin-top: 15px; " data-aos="fade-right" src="../../../../assets/D2/Espero/esc4.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc5.gif" />
+    </div>
+
+    <div class="scene">
+        
+        <img class="fondo" style="z-index:4; " data-aos="fade-right" src="../../../../assets/D2/Espero/esc6/esc6-2.png" />
+        <img class="plano1" data-aos-delay="500" style="z-index:4 " data-aos="fade-right" src="../../../../assets/D2/Espero/esc6/esc6.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../../assets/D2/Espero/moderador2.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right" src="../../../../assets/D2/Espero/pregunta-d2.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -2vh; ">
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Vacilo</button>
+            </div>
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op2()">Sigo bebiendo</button>
+            </div>
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op3()">Voy a hacer la tarea</button>
+            </div>
+        </ul>
+    </div>
+
+    <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto;">
+        <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+            <nz-progress [nzPercent]="25" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#560092'}" nzStatus="active"
+                [nzShowInfo]=false>
+            </nz-progress>
+        </div>
+    </div>
+</div>
+

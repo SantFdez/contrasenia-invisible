@@ -1,0 +1,134 @@
+<!-- <a (click)="showMessage1()">
+    <img class="plano1" data-aos="fade-right"
+        style="margin-top: 50%;"
+        src="../../../../assets/D8/Hablar con un amigo/boton1.gif" />
+</a>
+<app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message> -->
+
+
+<app-loading [isLoaded]="isLoaded"></app-loading>
+
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/esc1/esc1.gif" />
+    </div>
+    <div class="scene" style="">
+        <a (click)="showMessage1()">
+            <img class="fondo" data-aos="fade-right" style="   margin-top: 0%; z-index: 10;position: relative;"
+                src="../../../../assets/D8/Hablar con un amigo/esc2/boton1.gif" />
+        </a>
+        <app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message>
+        <img class="fondo" data-aos="fade-right" style="z-index: 3;margin-top: -22%;" data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc3/esc3-txt.gif" />
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: -15%;
+        z-index: -1;
+        position: relative;" src="../../../../assets/D8/Hablar con un amigo/esc3/esc3.gif"  />
+    </div>
+        
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: 19%;" src="../../../../assets/D8/Hablar con un amigo/esc4/esc4-1.gif" />
+        <img class="plano1" data-aos="fade-right" style="z-index: 3;" data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc4/esc4-txt.gif" />
+
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5; margin-top: -1%;"
+                src="../../../../assets/D8/Hablar con un amigo/esc4/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc4/esc5.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" data-aos="fade-right" style="z-index: 3;"  data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc5/esc5-txt.gif" />
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: -20%;
+        z-index: -1;
+        position: relative;" src="../../../../assets/D8/Hablar con un amigo/esc5/esc5.gif" />
+    </div>
+    
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc6/esc6-txt.gif" />
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: -9%;
+        z-index: -1;
+        position: relative;" src="../../../../assets/D8/Hablar con un amigo/esc6/esc6-2.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" data-aos="fade-right" style="z-index: 3;" src="../../../../assets/D8/Hablar con un amigo/esc7/esc7-1.png" />
+        <img class="fondo" data-aos="fade-right" style="z-index: 3;" data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc7/esc7-2.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc7/esc7.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style=" margin-bottom: -1%;" src="../../../../assets/D8/Hablar con un amigo/esc8/8-espacio.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc8/esc8.png" />
+        <img class="plano1  " data-aos="fade-right" style=" margin-bottom: -1%;" data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc8/esc8-txt.png" />
+        <img class="fondo  " data-aos="fade-right" style="margin-top: -1%;margin-bottom: -1%;" src="../../../../assets/D8/Hablar con un amigo/esc8/esc8-2.png" />
+        <img class="plano1  " data-aos="fade-right" style=" margin-top: -1%; margin-bottom: -1%;" src="../../../../assets/D8/Hablar con un amigo/esc8/esc8-3.png" />
+        
+        
+       
+    </div>
+
+    
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style=""
+            src="../../../../assets/D8/Hablar con un amigo/esc9/esc9-1.gif" />
+        <img class="fondo  " style="" src="../../../../assets/D8/Hablar con un amigo/esc9/fondo9.png" />
+
+        <img class="plano1  " data-aos="fade-right" style=""
+            src="../../../../assets/D8/Hablar con un amigo/esc9/9-2.png" />
+        <img class="plano1  " data-aos="fade-right" style=""
+            src="../../../../assets/D8/Hablar con un amigo/esc9/9-3.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " style=" z-index: -1;" src="../../../../assets/D8/Hablar con un amigo/esc10/esc10-espacio.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc10/esc10-2.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc10/esc10.gif" />
+        <img class="fondo  " style=" z-index: -1;" src="../../../../assets/D8/Hablar con un amigo/esc10/esc10-espacio.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc11/esc11-espacio.png" />
+        <img class="fondo  " data-aos="fade-right" style=""  data-aos-delay="500" src="../../../../assets/D8/Hablar con un amigo/esc11/esc11-txt.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc11/esc11-2.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc11/12.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc11/esc11-2txt.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/Hablar con un amigo/esc11/esc11-2espacio.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/1.png" />
+        <img class="plano1 "  style="z-index: -1;" src="../../../../assets/D8/D8-internet/faltante/fondo.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/2.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/3.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/4.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/5.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/6.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/7.png" />
+        <a (click)="showMessage3()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5;"
+                src="../../../../assets/D8/D8-internet/faltante/boton3.gif" />
+        </a>
+        <app-message [isVisible]="isVisible3" [messageName]="msgName3" (toDo)="handleOk3()"></app-message>
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: 91%;" src="../../../../assets/D8/D8-internet/faltante/8.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/9.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante 2/1.gif" />
+        <img class="fondo  " id="music2" data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/11.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/12.png" />
+        <img class="fondo  "  data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante/13.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante 2/2.gif" />
+        <img class="fondo  " data-aos="fade-right" style="    margin-top: -1%;" src="../../../../assets/D8/D8-internet/faltante 2/medidor.gif" />
+        <img class="plano1  "  style="z-index: -1; margin-top: -32px;" src="../../../../assets/D8/D8-internet/faltante 2/fondo.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante 2/3.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante 2/4.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-internet/faltante 2/5.png" />
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Hacer test de<br/> depresión</button>
+                <button class="button button1" (click)="op2()">Buscar ayuda <br/> psicológica</button>
+            </div>
+        </ul>
+        <img class="fondo" style=" z-index:10; background-color: #fe8236;" src="../../../../assets/D8/Hablar con un amigo/fin/logo.png" />
+    </div>
+
+    
+</div>

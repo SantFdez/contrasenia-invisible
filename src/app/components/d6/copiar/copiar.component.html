@@ -1,0 +1,107 @@
+<!-- <a (click)="showMessage1()">
+    <img class="plano1" data-aos="fade-right"
+        style="margin-top: 50%;"
+        src="../../../../assets/D6/Estudiar/boton1.gif" />
+</a>
+<app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message> -->
+<app-loading [isLoaded]="isLoaded"></app-loading>
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc1.png" />
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc2.png" />
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc3.png" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc3-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc4.png" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="" src="../../../../assets/D6/Copiar o Dormir/esc4-txt.gif" />
+    </div>
+    <div class="scene" style="">
+        <a (click)="showMessage1()">
+            <img class="fondo" data-aos="fade-right" style="   margin-bottom: -210%; z-index: 10; position: relative;"
+                src="../../../../assets/D6/Estudiar/esc2/boton1.gif" />
+        </a>
+        <app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message>
+        <img class="fondo " data-aos-delay="500" data-aos="fade-right" style="" src="../../../../assets/D6/Estudiar/esc1/esc1-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style="margin-top: -19%;     position: relative;  z-index: -1;"
+            src="../../../../assets/D6/Estudiar/esc1/esc1.gif" />
+
+    </div>
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Estudiar/esc2/esc2.gif" />
+        <div style="background-color: #ce6200; margin-top:-1px;">
+            <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D6/Estudiar/esc2/esc2-2.png" />
+        </div>
+    </div>
+
+
+    <div class="scene" style="margin-top: -22px;">
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right"
+                style=" z-index: 5; position: relative;     margin-bottom: -341%;"
+                src="../../../../assets/D6/Estudiar/esc3/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+        <div style="background-color: #cb621a; margin-top:-1px;">
+            <img class="fondo " data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc3/esc3.png" />
+            <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style=""
+                src="../../../../assets/D6/Estudiar/esc3/esc3-txt.png" />
+        </div>
+    </div>
+
+    <div class="scene" style="margin-top: -1px;">
+        <img class="plano1 "data-aos-delay="500" data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc4/esc4-txt.png" />
+        <img class="fondo " data-aos="fade-right" style="  " src="../../../../assets/D6/Estudiar/esc4/esc4.png" />
+        <img class="plano1 " data-aos="fade-right" style="  "
+            src="../../../../assets/D6/Estudiar/esc4/esc4-1txt.png" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc4/esc4-2.png" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc4/esc4-2txt.gif" />
+
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc4/esc4-3.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc5/esc5.gif" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="  " src="../../../../assets/D6/Estudiar/esc5/esc5-txt.gif" />
+
+        <a (click)="showMessage3()">
+            <img class="fondo msg-ico" data-aos="fade-right"
+                style=" z-index: 5;  margin-top: -34%;  position: relative;"
+                src="../../../../assets/D6/Estudiar/esc5/boton3.gif" />
+        </a>
+        <app-message [isVisible]="isVisible3" [messageName]="msgName3" (toDo)="handleOk3()"></app-message>
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D6/Estudiar/esc6/esc6.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" data-aos-delay="500" src="../../../../assets/D6/Estudiar/esc7/esc7-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style="margin-top: -9%;"
+            src="../../../../assets/D6/Estudiar/esc7/esc7.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../../assets/D6/Estudiar/medidor6.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right"
+            src="../../../../assets/D6/Estudiar/pregunta.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -1px; ">
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Hablo con el profe</button>
+                <button class="button button1" (click)="op2()">Me voy a <br /> la casa</button>
+                <button class="button button1" (click)="op3()">Me voy a <br /> la fiesta</button>
+            </div>
+        </ul>
+
+        <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto; ">
+            <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <nz-progress [nzPercent]="75" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#D60F34'}" nzStatus="active"
+                    [nzShowInfo]=false>
+                </nz-progress>
+            </div>
+        </div>
+    </div>
+</div>

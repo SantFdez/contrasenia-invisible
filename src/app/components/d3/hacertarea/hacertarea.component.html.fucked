@@ -1,0 +1,178 @@
+<app-loading [isLoaded]="isLoaded"></app-loading>
+<div  [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+    <div class="scene">
+        <img class="fondo " data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc1/esc1.png" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="margin-top: 87px;" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc1/esc1-txt.gif" />
+    </div>
+    <div class="scene" style="margin-top: 50px;">
+        <img class="fondo" data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc2/3dt31-1.gif" />
+        <img class="fondo" data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc2/espacio.png" />
+    </div>
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="z-index: -1;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc3/esc3-1.png" />
+        <img class="plano1" data-aos="fade-right" style="z-index: 0;" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc3/esc3-2.png" />
+        <img class="plano1 " data-aos="fade-right" data-aos-delay="500" style="z-index: 0;" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc3/esc3-3.png" />
+
+    </div>
+    
+    <div class="scene" style="margin-top: 37px;">
+        <img class="fondo " data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc4/esc4.png" />
+        <img class="plano1 "data-aos-delay="1000" data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc4/esc4-1.png" />
+    </div>
+
+    <div class="">
+        <a (click)="showMessage5()">
+            <img class="fondo msg-ico" data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc4/esc4-2boton.gif" />
+        </a>
+        <app-message [isVisible]="isVisible5" [messageName]="msgName5" (toDo)="handleOk5()"></app-message>
+    </div>
+
+   <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc5/esc5-1.gif" />
+    </div>
+
+   
+     <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc6/esc6-1.gif" />
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc6/esc6-txt.gif" />
+        <img class="fondo " data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc6/6-2.gif" />
+        <img class="fondo " data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc6/6-4.gif" />
+    </div>
+
+    <div class="scene" style="height: 56vh;">
+        
+    </div>
+
+    <div class="scene" style="">
+        <img class=" fondo" data-aos-delay="500" data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc7/esc7.gif" />
+        <img class="fondo" data-aos="fade-right" style="    z-index: -1;
+        margin-top: -85px;
+        position: relative;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc7/esc4-1.gif" />  
+    </div>
+    <div class="">
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right" style="margin-bottom: -20%;" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc8/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+    </div>
+    <div class="scene" style="">
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="z-index: 1;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc8/esc8-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc8/esc8.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc9/esc9.png" />
+        <img class=" fondo" data-aos="fade-right" style="z-index: 2;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Voy hacer la tarea/esc8/esc8.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc10/espacio.png" />
+        <img class="fondo " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc10/310.gif" />
+        <img class="plano1 " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc10/esc10-txt.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="plano1 " data-aos-delay="500" data-aos="fade-right" style="z-index: 2; margin-top: 116px;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc11/esc11-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc11/esc11.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="plano1 "style=" 
+        z-index: -1;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-fondo.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-1.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-2.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-3.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-4.png" />
+        <a (click)="showMessage3()">
+            <img class="fondo msg-ico" data-aos="fade-right" style="" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-5boton.gif" />
+        </a>
+        <app-message [isVisible]="isVisible3" [messageName]="msgName3" (toDo)="handleOk3()"></app-message>
+        <img class="fondo nosoy" data-aos="fade-right" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/12-5.png" />
+        <img class="fondo chica" data-aos="fade-down" style=""
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc12/chica-cae.png" data-aos-anchor-placement="bottom-bottom" />
+        
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="z-index: 2;  margin-top: 44%;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc13/esc13.gif" />
+    </div>
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/esc14-1.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-2.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-3.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-4.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-5.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-6.png" />
+        <img class="fondo " data-aos="fade-right" style="z-index: 2;  "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-7.png" />
+        <img class="plano1 " data-aos="fade-right" style="z-index: -1; margin-top: -39px; "
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-7-1.png" />
+        <a (click)="showMessage4()">
+            <img class="fondo msg-ico" data-aos="fade-right" style="margin-top: -97px;" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/14-8boton.gif" />
+        </a>
+        <app-message [isVisible]="isVisible4" [messageName]="msgName4" (toDo)="handleOk4()"></app-message>
+    </div>
+
+    <div class="scene" style="margin-top: -47px; background-color: white;">
+        <img class="fondo " data-aos="fade-right" style="z-index: 2; background-color: white;"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/esc14/esc14.png" />
+    </div>
+    
+    <div class="scene" style="background-color: white; margin-top: -1%;">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/medidorD3.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right" src='../../../../assets/loading.gif' data-src="../../../../assets/D3/Vacilar/Vacilo/pregunta.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -2vh; background-color: white; margin-top: -1%;">
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Quiero averiguarlo</button>
+            </div>
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op2()">No me interesa</button>
+            </div>
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op3()">Ya lo sé</button>
+            </div>
+        </ul>
+
+        <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto auto auto; background-color: white;">
+            <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <nz-progress [nzPercent]="37.5" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#7A0075'}" nzStatus="active"
+                    [nzShowInfo]=false>
+                </nz-progress>
+            </div>
+        </div>
+    </div>
+</div>

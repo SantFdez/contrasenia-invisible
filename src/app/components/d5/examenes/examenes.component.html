@@ -1,0 +1,106 @@
+<!-- <a (click)="showMessage1()">
+    <img class="plano1" data-aos="fade-right"
+        style="margin-top: 50%;"
+        src="../../../../assets/D5/Examenes/boton1.gif" />
+</a>
+<app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message> -->
+<app-loading [isLoaded]="isLoaded"></app-loading>
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D5/Examenes/esc1/esc1.png" />
+    </div>
+    <div class="scene" style="">
+        <img class="fondo " data-aos-delay="500" data-aos="fade-right" style="" src="../../../../assets/D5/Examenes/esc2/esc2-txt.gif" />
+
+    </div>
+
+
+    <div class="scene" style="margin-top: -1px;">
+        <div data-aos="fade-right">
+            <img class="fondo " style="" src="../../../../assets/D5/Examenes/esc2/esc2.gif" />
+            <img class="fondo " style="    margin-top: -1px;" src="../../../../assets/D5/Examenes/esc3/esc3.png" />
+        </div>
+        <img class="fondo " data-aos="fade-right" style="    margin-top: -61%;"
+            src="../../../../assets/D5/Examenes/esc3/esc3-2.png" />
+        <a (click)="showMessage1()">
+            <img class="plano1" data-aos="fade-right" style="       margin-top: -14vh; z-index: 10;"
+                src="../../../../assets/D5/Examenes/esc2/boton1.gif" />
+        </a>
+        <app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center" >
+            <img class="fondo "  style="margin-top: -13%;"
+                src="../../../../assets/D5/Examenes/esc3/esc3-3.png" />
+            <img class="fondo " style="margin-top: -5%;"
+                src="../../../../assets/D5/Examenes/esc4/esc4.gif" />
+        </div>
+
+    </div>
+
+
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D5/Examenes/esc5/5.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos-delay="500" data-aos="fade-right" src="../../../../assets/D5/Examenes/esc6/esc6-txt.gif" />
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D5/Examenes/esc6/6.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5;     margin-bottom: -219%;"
+                src="../../../../assets/D5/Examenes/esc7/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D5/Examenes/esc7/esc7.png" />
+
+    </div>
+
+    <div class="scene" data-aos="fade-right" data-aos-anchor-placement="top-center" style="">
+        <img class="fondo "  src="../../../../assets/D5/Examenes/esc8/esc8.gif" />
+        <img class="fondo " style="margin-top: -25%;"
+            src="../../../../assets/D5/Examenes/esc8/esc8-2.gif" />
+        <img class="plano1 " data-aos="fade-right" style=""
+            src="../../../../assets/D5/Examenes/esc8/esc8-2txt.gif" />
+        <img class="fondo " style="margin-top: -17%;"
+            src="../../../../assets/D5/Examenes/esc8/esc8-3.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo " data-aos="fade-right" data-aos-delay="500" src="../../../../assets/D5/Examenes/esc9/esc9-txt.gif" />
+        <img class="fondo " data-aos="fade-right" style="margin-top: -10%; position: relative; z-index: -1;"
+            src="../../../../assets/D5/Examenes/esc9/esc9.gif" />
+        <a (click)="showMessage3()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5; margin-bottom: -219%;"
+                src="../../../../assets/D5/Examenes/esc9/boton3.gif" />
+        </a>
+        <app-message [isVisible]="isVisible3" [messageName]="msgName3" (toDo)="handleOk3()"></app-message>
+        <img class="fondo " data-aos="fade-right" src="../../../../assets/D5/Examenes/esc9/esc9-2.gif" />
+
+    </div>
+    <div class="scene" style="">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../../assets/D5/Examenes/medidor-d5.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right"
+            src="../../../../assets/D5/Examenes/pregunta.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -1px; ">
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Sigo estudiando</button>
+                <button class="button button1" (click)="op2()">Duermo y copio <br /> en el examen</button>
+                <button class="button button1" (click)="op3()">Descanso un <br /> momento y sigo</button>
+            </div>
+        </ul>
+
+        <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto; ">
+            <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <nz-progress [nzPercent]="62.5" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#B8114D'}" nzStatus="active"
+                    [nzShowInfo]=false>
+                </nz-progress>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,140 @@
+<!-- <a (click)="showMessage1()">
+    <img class="plano1" data-aos="fade-right"
+        style="margin-top: 50%;"
+        src="../../../../assets/D8/D8-Psicologo/boton1.gif" />
+</a>
+<app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message> -->
+
+
+<app-loading [isLoaded]="isLoaded"></app-loading>
+
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+
+    <div class="scene" style="">
+        <img class="plano1 " style="z-index: -1;" src="../../../../assets/D8/D8-Psicologo/fondos/p1-fondo.png" />
+        <img class="fondo " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc1/esc1.png" />
+        <img class="plano1 " data-aos="fade-right" style="z-index: 3;" data-aos-delay="500"
+            src="../../../../assets/D8/D8-Psicologo/esc1/esc1-txt.png" />
+
+    </div>
+    <div class="scene" style="">
+        <img class="plano1" data-aos="fade-right" style="z-index: 3;" data-aos-delay="500"
+            src="../../../../assets/D8/D8-Psicologo/esc2/esc2-txt.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc2/esc2.png" />
+    </div>
+
+    <div class="scene" style="">
+        <a (click)="showMessage1()">
+            <img class="fondo" data-aos="fade-right" style="   margin-top: 0%; z-index: 10;"
+                src="../../../../assets/D8/D8-Psicologo/esc3/boton1.gif" />
+        </a>
+        <app-message [isVisible]="isVisible1" [messageName]="msgName1" (toDo)="handleOk1()"></app-message>
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc3/esc3.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc4/esc4.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc5/esc5.gif" />
+        <img class="plano1  " data-aos="fade-right" style="" data-aos-delay="500"
+            src="../../../../assets/D8/D8-Psicologo/esc5/esc5-txt.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc6/esc6.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc6/esc6-2.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc7/esc8.gif" />
+        <img class="fondo" data-aos="fade-right" style="z-index: 3;"
+            src="../../../../assets/D8/D8-Psicologo/esc7/esc9.png" />
+    </div>
+
+    <div class="scene" style="">
+        <a (click)="showMessage2()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5; margin-top: -1%; "
+                src="../../../../assets/D8/D8-Psicologo/esc8/boton2.gif" />
+        </a>
+        <app-message [isVisible]="isVisible2" [messageName]="msgName2" (toDo)="handleOk2()"></app-message>
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc8/esc10.png" />
+        <img class="fondo  " data-aos="fade-right" style="margin-top: -1%;margin-bottom: -1%;"
+            src="../../../../assets/D8/D8-Psicologo/esc8/esc10-2.png" />
+        <img class="plano1  " data-aos="fade-right" style=" margin-top: -1%; margin-bottom: -1%;"
+            src="../../../../assets/D8/D8-Psicologo/esc8/esc10-3.png" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="plano1 " style="z-index: -1;" src="../../../../assets/D8/D8-Psicologo/fondos/p2.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc9/esc11.gif" />
+        <img class="plano1  " data-aos="fade-right" style="" data-aos-delay="1000"
+            src="../../../../assets/D8/D8-Psicologo/esc9/esc11-txt.gif" />
+        <a (click)="showMessage3()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5;"
+                src="../../../../assets/D8/D8-Psicologo/esc9/boton3.gif" />
+        </a>
+        <app-message [isVisible]="isVisible3" [messageName]="msgName3" (toDo)="handleOk3()"></app-message>
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc9/esc12.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <a (click)="showMessage4()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5;"
+                src="../../../../assets/D8/D8-Psicologo/esc10/boton4.gif" />
+        </a>
+        <app-message [isVisible]="isVisible4" [messageName]="msgName4" (toDo)="handleOk4()"></app-message>
+        <img class="fondo  " style=" z-index: -1;" src="../../../../assets/D8/D8-Psicologo/esc10/esc13.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc10/esc14.gif" />
+        <img class="plano1  " data-aos="fade-right" style="" data-aos-delay="800"
+            src="../../../../assets/D8/D8-Psicologo/esc10/esc14-txt.gif" />
+    </div>
+
+    <div class="scene" style="">
+        <img class="plano1 " style="z-index: -1; "
+            src="../../../../assets/D8/D8-Psicologo/fondos/p3.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc11/esc15.png" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc11/esc16.png" />
+        <img class="fondo msg-ico" data-aos="fade-right" style=" visibility: hidden;"
+                src="../../../../assets/D8/D8-Psicologo/esc11/boton5.gif" />
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc11/esc17.png" />
+        <a (click)="showMessage5()">
+            <img class="fondo msg-ico" data-aos="fade-right" style=" z-index: 5;margin-top: -12%;"
+                src="../../../../assets/D8/D8-Psicologo/esc11/boton5.gif" />
+        </a>
+        <app-message [isVisible]="isVisible5" [messageName]="msgName5" (toDo)="handleOk5()"></app-message>
+
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo  " data-aos="fade-right" style="" src="../../../../assets/D8/D8-Psicologo/esc12/esc18.png" />
+        <img class="plano1  " data-aos="fade-right" style="" data-aos-delay="700"
+            src="../../../../assets/D8/D8-Psicologo/esc12/esc18-txt.gif" />
+    </div>
+
+    <div class="scene" data-aos="fade-right" style="">
+        <img class="fondo  "  style="" 
+            src="../../../../assets/D8/D8-Psicologo/esc13/esc19-txt.gif" />
+        <img class="fondo  "  style="" src="../../../../assets/D8/D8-Psicologo/esc13/esc19.gif" />
+    </div>
+
+    <div class="scene" style=" background-color: #fe8236;">
+        <img class="fondo" style="z-index:4; position: relative; margin-top: -30%; " data-aos="fade-right"
+            src="../../../../assets/D8/D8-Psicologo/medidor.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right" 
+            src="../../../../assets/D8/D8-Psicologo/fin/fin-txt.png" /> 
+        <img class="fondo" style=" z-index:-1;margin-top: 5%;" data-aos="fade-right" 
+            src="../../../../assets/D8/D8-Psicologo/fin/fin-txt1.png" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right" 
+            src="../../../../assets/D8/D8-Psicologo/fin/fin-txt2.png" />
+        <ul class="centered-ul">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Hacer test de<br /> depresión</button>
+                <button class="button button1" (click)="op2()">Buscar ayuda <br /> psicológica</button>
+            </div>
+
+        </ul>
+        <img class="fondo" style=" z-index:1; background-color: #fe8236;" src="../../../../assets/D8/D8-Psicologo/fin/fin-txt3.png" />
+    </div>
+</div>

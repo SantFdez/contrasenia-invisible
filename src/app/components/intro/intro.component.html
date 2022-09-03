@@ -1,0 +1,47 @@
+<!-- <div style="width: 40%; margin: 0 auto;"> -->
+    <app-loading [isLoaded]="isLoaded"></app-loading>
+    <div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}">
+        <!-- <iframe width="100%" height="130" src="https://soundation.com/player/drrhq" frameborder="0" allowfullscreen></iframe> -->
+        <div style="">
+            <img class="plano1" style="z-index:4"  data-aos="fade-right" src="../../../assets/intro/nombre.png" />
+            <img class="fondo" style="" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right"  src="../../../assets/intro/fondo.gif" />
+            <img class="fondo" style="margin-top: 27px;" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right"  src="../../../assets/intro/lemav2.png" />
+            <a (click)="swipe()"> 
+                <img class="fondo" data-aos-anchor-placement="bottom-bottom" style="z-index:4; margin-top: -3%;" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right" src="../../../assets/intro/flechas.gif" />
+            </a>
+    
+        </div>
+    
+        <div id="next" class="scene" style="">
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text1.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text2.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text3.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text4.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text5.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; padding: 8px 0;" src="../../../assets/intro/text6.png" />
+            
+            <img class="fondo" data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/gifs/medidor.gif" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text7.png" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text8.png" />
+            <img class="plano1 " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/gifs/gif7.gif" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text9.png" />
+            <img class="plano1 " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/gifs/gif8.gif" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/text10.png" />
+            <img class="plano1 " data-aos="fade-right" style="z-index: 2; " src="../../../assets/intro/gifs/gif9.gif" />
+            <img class="fondo " data-aos="fade-right" style="z-index: 2;padding: 16px 0; " src="../../../assets/intro/importante.png" />
+        </div>
+    
+        <div class="scene" style="height: 20vh; padding-top: 3vh;">
+            <ul class="centered-ul">
+                <div class="button-separation" data-aos="zoom-in"  data-aos-anchor-placement="bottom-bottom" >
+                    <button class="button button1" (click)="op1()">Empezar</button>
+                </div>
+            </ul>
+        </div> 
+    
+    </div>
+    
+    <div>
+    
+    </div>
+<!-- </div> -->

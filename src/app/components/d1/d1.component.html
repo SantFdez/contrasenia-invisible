@@ -1,0 +1,90 @@
+<app-loading [isLoaded]="isLoaded"></app-loading>
+
+<div [@inOutAnimation] class="main-body" [ngStyle]="{'visibility': visible}" style="background-color: #000000; ">
+    <div class="scene">
+        <img class="fondo" style="z-index:4 "data-aos="fade-right" src="../../../assets/D1/esc1/text1.gif" />
+        <img class="fondo" style="margin-top: -4vh;" data-aos="fade-right" src="../../../assets/D1/esc1/esc1-1.png" />
+        <img class="fondo" style="margin-top: -9vh;" data-aos="fade-right" src="../../../assets/D1/esc1/esc1-2.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" style="z-index:4 " data-aos="fade-right" src="../../../assets/D1/esc2/esc2.png" />
+        <img class="fondo" style="" data-aos="fade-right" src="../../../assets/D1/esc2/esc2-2.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" style="z-index:4 " data-aos="fade-right" src="../../../assets/D1/esc3/esc3.png" />
+        <img class="fondo" style="" data-aos="fade-right" src="../../../assets/D1/esc3/esc3-2.png" />
+    </div>
+
+    <div class="scene" style="background-color: white;">
+        <img class="fondo" style="z-index:4 " data-aos="fade-right" src="../../../assets/D1/esc4.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" data-aos-delay="500" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../assets/D1/esc5/esc5-1.gif" />
+        <img class="fondo" style="margin-top: -6vh; z-index:1;" data-aos="fade-right"
+            src="../../../assets/D1/esc5/esec5.png" />
+    </div>
+
+    <div class="scene">
+        <img class="fondo" style="z-index:4; " data-aos="zoom-in" src="../../../assets/D1/esc6/esc6.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="500" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-1.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="700" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-2.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="900" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-3.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="1100" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-4.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="1500" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-5.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="1800" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-6.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="2100" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-7.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="2400" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-8.png" />
+        <img class="plano1" style="z-index:4; " data-aos-delay="2700" data-aos="fade-right"
+            src="../../../assets/D1/esc6/esc6-9.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -12.1vh;">
+        <a (click)="showMessage()">
+            <img class="fondo" style="z-index:4; position: relative; margin-top: -10%;  " data-aos="fade-right"
+                src="../../../assets/D1/esc7/botond1-.gif" />
+        </a>
+        <img class="fondo" style="    z-index: -1;
+        position: relative;       " data-aos="fade-right" src="../../../assets/D1/esc7/esc7-.gif" />
+
+        <app-message [isVisible]="isVisible" [messageName]="msgName" (toDo)="handleOk()"></app-message>
+
+    </div>
+
+    <div class="scene" style="">
+        <img class="fondo" style="z-index:4; position: relative; " data-aos="fade-right"
+            src="../../../assets/D1/D1-11.gif" />
+        <img class="fondo" style=" z-index:1;" data-aos="fade-right" src="../../../assets/D1/pregunta-d1.png" />
+    </div>
+
+    <div class="scene" style="margin-top: -2vh; ">
+        <ul class="centered-ul" style="background-color: black;">
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op1()">Espero</button>
+            </div>
+            <div class="button-separation" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                <button class="button button1" (click)="op2()">Busco a alguien</button>
+            </div>
+        </ul>
+    </div>
+
+    <div class="scene" style="height: 9vh; width: 60%; margin: 4vh auto;">
+        <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+            <nz-progress [nzPercent]="12.5" [nzStrokeColor]="{'0%': '#081DD1', '100%': '#3B00A9'}" nzStatus="active"
+                [nzShowInfo]=false>
+            </nz-progress>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,48 @@
+::ng-deep .ant-modal-header {
+    padding: 16px 24px;
+    color: rgba(0,0,0,.65);
+    background: #fff;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    font-family: 'Muli', sans-serif;
+}
+
+::ng-deep .ant-modal-footer {
+    padding: 0px 16px 16px;
+    text-align: right;
+    background: 0 0;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    font-family: 'Muli', sans-serif;
+}
+
+::ng-deep .ant-modal-body {
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 21px;
+    word-wrap: break-word;
+    font-family: 'Muli', sans-serif;
+}
+
+::ng-deep .ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: auto;
+    outline: 0;
+    background-color: black;
+    -webkit-overflow-scrolling: touch;
+}
+
+::ng-deep .vertical-center-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+::ng-deep .vertical-center-modal .ant-modal {
+    top: 0;
+}
